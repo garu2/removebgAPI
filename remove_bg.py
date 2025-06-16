@@ -1,4 +1,5 @@
 import io
+import os
 from flask import Flask, request, send_file, jsonify
 from rembg import remove
 from PIL import Image
