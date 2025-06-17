@@ -1,20 +1,20 @@
-# Background Removal API
+# 🖼️ Background Removal API
 
 A simple and efficient API to remove backgrounds from images, built with Flask and the rembg library.
 
-## Features
+## ✨ Features
 
-- Remove backgrounds from uploaded images
-- Returns transparent PNG images
-- Simple REST API interface
-- Ready for deployment to platforms like Heroku
+- 🔄 Remove backgrounds from uploaded images
+- 🌟 Returns transparent PNG images
+- 🚀 Simple REST API interface
+- 🌐 Ready for deployment to platforms like Heroku
 
-## Requirements
+## 📋 Requirements
 
-- Python 3.8+
-- Dependencies listed in `requirements.txt`
+- 🐍 Python 3.8+
+- 📦 Dependencies listed in `requirements.txt`
 
-## Installation
+## 💻 Installation
 
 1. Clone this repository:
    ```bash
@@ -34,9 +34,9 @@ A simple and efficient API to remove backgrounds from images, built with Flask a
 
 The API will be available at `http://localhost:5000`.
 
-## API Endpoints
+## 🔌 API Endpoints
 
-### Test Endpoint
+### 🧪 Test Endpoint
 
 ```
 GET /test
@@ -56,7 +56,7 @@ Use this endpoint to check if the API is running correctly.
 }
 ```
 
-### Background Removal Endpoint
+### 🎭 Background Removal Endpoint
 
 ```
 POST /remove-bg
@@ -76,15 +76,15 @@ Upload an image to have its background removed.
 - 400: When no image is provided or the image is empty
 - 500: When an error occurs during image processing
 
-## Example Usage
+## 📝 Example Usage
 
-### Using cURL
+### 🔄 Using cURL
 
 ```bash
 curl -X POST -F "image=@/path/to/your/image.jpg" -o "output.png" http://localhost:5000/remove-bg
 ```
 
-### Using Python Requests
+### 🐍 Using Python Requests
 
 ```python
 import requests
@@ -101,10 +101,10 @@ else:
     print(f"Error: {response.json()}")
 ```
 
-## Dependencies
+## 🔧 Dependencies
 
-- Flask: Web framework
-- rembg: Background removal library
-- Pillow: Image processing
-- onnxruntime: Required by rembg for neural network operations
-- gunicorn: Production web server
+- 🌶️ Flask: Web framework
+- 🪄 rembg: Background removal library
+- 🖼️ Pillow: Image processing
+- 🧠 onnxruntime: Required by rembg for neural network operations
+- 🦄 gunicorn: Production web server
