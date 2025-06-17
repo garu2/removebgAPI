@@ -7,19 +7,20 @@ A simple and efficient API to remove backgrounds from images, built with Flask a
 - 🔄 Remove backgrounds from uploaded images
 - 🌟 Returns transparent PNG images
 - 🚀 Simple REST API interface
-- 🌐 Ready for deployment to platforms like Heroku
+- 🌐 Ready for deployment to platforms like Railway
 
 ## 📋 Requirements
 
 - 🐍 Python 3.8+
 - 📦 Dependencies listed in `requirements.txt`
+- **📚 [Documentation Library Rembg](https://github.com/danielgatis/rembg)**
 
 ## 💻 Installation
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd removebg
+   git clone https://github.com/garu2/removebgAPI.git
+   cd removebgAPI
    ```
 
 2. Install the required dependencies:
